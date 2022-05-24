@@ -1,8 +1,9 @@
-# CodeIgniter 4 Application Starter
+# Neo Feeder Integrator
 
-## What is CodeIgniter?
+## Apa itu Neo Feeder Integrator?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
+Neo Feeder Integrator merupakan aplikasi web service client untuk pelaporan akademik Perguruan Tinggi swasta di Indonesia.
+
 More information can be found at the [official site](http://codeigniter.com).
 
 This repository holds a composer-installable app starter.
