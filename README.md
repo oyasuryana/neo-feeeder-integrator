@@ -17,7 +17,10 @@ The user guide corresponding to this version of the framework can be found
 
 ## Prasyarat
 Untuk menginstall aplikasi ini diperlukan aplikasi-aplikasi berikut :
-1. PHP min versi 7.3 dengan extension intl aktif
+1. PHP min versi 7.3 dengan extension berikut 
+	- [intl](http://php.net/manual/en/intl.requirements.php)
+	- [libcurl](http://php.net/manual/en/curl.requirements.php) 
+
 2. MySQL ver 14.14 
 3. composer 2.1.5 
 4. git 2.32.0 / gitbash for windows ver 
