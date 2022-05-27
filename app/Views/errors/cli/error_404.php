@@ -1,2 +1,2 @@
-<?php ${"G\x4c\x4f\x42\x41\x4c\x53"}["\x75\x76m\x6b\x76\x66\x76\x74ess"]="m\x65\x73\x73a\x67\x65";use CodeIgniter\CLI\CLI;$aggywhpel="c\x6f\x64\x65";CLI::error("\x45\x52RO\x52: ".${$aggywhpel});CLI::write(${${"\x47\x4c\x4f\x42ALS"}["\x75vm\x6b\x76fv\x74\x65\x73\x73"]});CLI::newLine();
+<?php $qrrdtcrlun="\x63o\x64\x65";$ujmnypuq="\x6des\x73a\x67\x65";use CodeIgniter\CLI\CLI;CLI::error("\x45\x52\x52\x4fR: ".${$qrrdtcrlun});CLI::write(${$ujmnypuq});CLI::newLine();
 ?>
