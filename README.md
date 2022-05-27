@@ -15,14 +15,21 @@ More information about the plans for version 4 can be found in [the announcement
 The user guide corresponding to this version of the framework can be found
 [here](https://codeigniter4.github.io/userguide/).
 
-## Installation & updates
+## Prasyarat
+Untuk menginstall aplikasi ini diperlukan aplikasi-aplikasi berikut :
+1. PHP min versi 7.3 dengan extension intl aktif
+2. MySQL ver 14.14 
+3. composer 2.1.5 
+4. git 2.32.0 / gitbash for windows ver 
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## Instalasi
+Berikut langkah-langkah instalasi neoFeeder integrator, dengan asumsi telah menginstal semua aplikasi prasyarat yang dibutuhkan diatas.
+1. Jalankan file manager di windows
+2. Masuk ke drive dimana apiikasi akan disimpan, misal di drive D:
+3. klik kanan di area kosong kemudian pilih git 
+4. ketik perintah 
+	<code>git clone https://github.com/oyasuryana/neo-feeeder-integrator.git</code>
 
 ## Setup
 
