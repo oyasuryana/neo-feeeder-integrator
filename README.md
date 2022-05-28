@@ -25,9 +25,11 @@ Berikut langkah-langkah instalasi neoFeeder integrator, dengan asumsi telah meng
 1. Jalankan file manager di windows
 2. Masuk ke drive dimana apiikasi akan disimpan, misal di drive D:
 3. klik kanan di area kosong kemudian pilih git 
-4. ketik perintah <code>git clone https://github.com/oyasuryana/neo-feeeder-integrator.git</code>
+4. ketik perintah 
+<code>git clone https://github.com/oyasuryana/neo-feeeder-integrator.git</code>
 5. setelah selesai masuk ke direktori neo-feeder-integrator
-6. ketik perintah <code>composer update</code>, pastikan terkoneksi ke internet
+6. ketik perintah (pastikan terkoneksi ke internet)
+<code>composer update</code> 
 7. buat database di mysql dengan nama <code>feeder_db</code>
 8. import file <code>feeder_db.sql</code> yang ada di folder neo-feeder-integrator
 
@@ -37,22 +39,17 @@ Berikut langkah-langkah instalasi neoFeeder integrator, dengan asumsi telah meng
 1. Rename `env` menjadi `.env` 
 2. Sesuaikan  <code>app.baseURL = 'http://localhost:8080'</code> dengan domain atau alamat host anda
 3. Sesuaikan seting database pada bagian
-	<code>
-	database.default.hostname = localhost
-	database.default.database = feeder_db
-	database.default.username = root
-	database.default.password = 
-	database.default.DBDriver = MySQLi
-	</code>
+	<code>database.default.hostname = localhost</code>
+	<code>database.default.database = feeder_db</code>
+	<code>database.default.username = root</code>
+	<code>database.default.password = </code>
+	<code>database.default.DBDriver = MySQLi</code>
 4. Sesuaikan setting neoFeeder Integrator pada bagian :
-	<code>
-	neofeeder.urlFeeder = http://localhost:3003/ws/live2.php
-	neofeeder.ipFeeder = isi_dengan_ip_address_urlFeeder
-	neofeeder.userFeeder = isi_dengan_kode_pt
-	neofeeder.passFeeder = isi_dengan_password_pt
-	neofeeder.limitDataFeeder = 25
-	</code>
-
+	<code>neofeeder.urlFeeder = http://localhost:3003/ws/live2.php</code>
+	<code>neofeeder.ipFeeder = isi_dengan_ip_address_urlFeeder</code>
+	<code>neofeeder.userFeeder = isi_dengan_kode_pt</code>
+	<code>neofeeder.passFeeder = isi_dengan_password_pt</code>
+	<code>neofeeder.limitDataFeeder = 25</code>
 
 ## Menjalankan aplikasi
 
